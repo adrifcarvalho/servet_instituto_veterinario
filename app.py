@@ -1,17 +1,33 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, make_response
 from datetime import datetime
 import json
+
+import random
 
 def get_reviews():
     with open("static/data/reviews.json", encoding="utf-8") as f:
         reviews = json.load(f)
 
-    filtradas = [r for r in reviews if r["nota"] >= 4]
+    # TOTAL ORIGINAL (arquivo inteiro)
+    total_geral = len(reviews)
 
-    # calcular média
+    # FILTRO
+    filtradas = [
+        r for r in reviews
+        if r.get("nota") in [4, 5] and r.get("texto") and r.get("texto").strip() != ""
+    ]
+
+    if not filtradas:
+        return [], 0, total_geral
+
+    # SORTEAR 10 ALEATÓRIAS
+    selecionadas = random.sample(filtradas, min(10, len(filtradas)))
+
+    # MÉDIA DAS FILTRADAS
     media = round(sum(r["nota"] for r in filtradas) / len(filtradas), 1)
 
-    return filtradas, media, len(filtradas)
+    return selecionadas, media, total_geral
+
 
 def status_clinica():
 
@@ -74,13 +90,21 @@ app = Flask(__name__)
 def home():
     reviews, media, total = get_reviews()
 
-    return render_template(
+    html = render_template(
         "index.html", 
-        status_funcionamento = status_clinica(),
+        status_funcionamento=status_clinica(),
         reviews=reviews,
         media=media,
         total=total
     )
+
+    response = make_response(html)
+
+    # HEADERS SEO IMPORTANTES
+    response.headers["Cache-Control"] = "public, max-age=3600"
+    response.headers["X-Robots-Tag"] = "index, follow"
+
+    return response
 
 if __name__ == "__main__":
     app.run(debug=True)    

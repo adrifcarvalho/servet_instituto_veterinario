@@ -1,18 +1,118 @@
 [
   {
-    "autor": "Nicolau",
+    "autor": "Arthur Nascimento",
     "nota": 5,
-    "texto": "Atendimento excelente, profissionais capacitados e ótimo suporte após consultas e pós-operatórios"
+    "texto": ""
   },
   {
-    "autor": "Any Byatriz",
+    "autor": "MT 108 Rap Gospel",
     "nota": 5,
-    "texto": "Clínica excelente! Veterinários excelentes também! Meus animais sempre são bem tratados lá e parecem realmente ter empadia os os bichinhos (diferente de outras que já fui)\nAtendimento bem humanizado, tudo bem higienizado e confortável! E os valores também são bem agradáveis (principalmente se você tiver algum plano)\nRecepção também é muito boa, o rapaz costuma atender melhor do que uma moça loira (das vezes que fui praticamente tive que me auto atender pois não parecia ser proativa) mas o menino de cabelo cacheado é muito amigável!!\nRecomendo essa clínica totalmente!! ☺️"
+    "texto": ""
+  },
+  {
+    "autor": "Fernanda carvalho",
+    "nota": 5,
+    "texto": "Atendimento ótimo"
   },
   {
     "autor": "Manoel Mariano Neto da Silva",
     "nota": 5,
-    "texto": "Ótimo atendimento! Minha gata, inicialmente, foi diagnosticada com cistite.\nApós os exames solicitados, foi observado a ocorrência de cálculos na bexiga.\nA cirurgia foi realizada com sucesso e a recuperação foi tranquila! Uma equipe muito atenciosa!"
+    "texto": "Ótimo atendimento!\n\nMinha gata, inicialmente, foi diagnosticada com cistite. Após os exames solicitados, foi observado a ocorrência de cálculos na bexiga.\n\nA cirurgia foi realizada com sucesso e a recuperação foi tranquila!\n\nUma equipe muito atenciosa!"
+  },
+  {
+    "autor": "Daniele Vich",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Alessandra Ferreira",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Alanna Maria Lima da Silva",
+    "nota": 5,
+    "texto": "Adorei o atendimento de todos, são bastante atenciosos e profissionais. Os preços são justos. Se preocupam em dar o melhor atendimento pro seu bichinho de estimação."
+  },
+  {
+    "autor": "Thayná Tenório",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Adriana Araújo",
+    "nota": 5,
+    "texto": "Adorei o atendimento, a Dra super simpática e paciente com minha Luna, super recomendo"
+  },
+  {
+    "autor": "Ana Paula Xavier",
+    "nota": 5,
+    "texto": "Até o momento meu pet foi bem atendido e todos os acompanhamentos foram com carinho e cuidado com ele."
+  },
+  {
+    "autor": "maria júlia soares nunes costa",
+    "nota": 5,
+    "texto": "Atendimento maravilho! Foram super atenciosos ☺️"
+  },
+  {
+    "autor": "nicolau",
+    "nota": 5,
+    "texto": "Atendimento excelente, profissionais capacitados e ótimo suporte após consultas e pós-operatórios"
+  },
+  {
+    "autor": "Adriana Cordeiro",
+    "nota": 5,
+    "texto": "Maravilhosooooo. A consulta mais completa que já vi na vida. Amei o atendimento"
+  },
+  {
+    "autor": "Any Byatriz",
+    "nota": 5,
+    "texto": "Clínica excelente! Veterinários excelentes também! Meus animais sempre são bem tratados lá e parecem realmente ter empadia os os bichinhos (diferente de outras que já fui)\nAtendimento bem humanizado, tudo bem higienizado e confortável! E os valores também são bem agradáveis (principalmente se você tiver algum plano)\n\nRecepção também é muito boa, o rapaz costuma atender melhor do que uma moça loira (das vezes que fui praticamente tive que me auto atender pois não parecia ser proativa) mas o menino de cabelo cacheado é muito amigável!!\n\nRecomendo essa clínica totalmente!! ☺️"
+  },
+  {
+    "autor": "Adryelle Cristinne Torres",
+    "nota": 5,
+    "texto": "Excelente local. Atendimento maravilloso. Profissionais incríveis."
+  },
+  {
+    "autor": "Fabyana Torres",
+    "nota": 5,
+    "texto": "Ambiente maravilhoso, atendimento nota 10"
+  },
+  {
+    "autor": "josemir felix",
+    "nota": 5,
+    "texto": "Excelente atendimento.Todos receptivos , voltarei sempre."
+  },
+  {
+    "autor": "Célia Tenório",
+    "nota": 5,
+    "texto": "Muito boa. Ótimo atendimento"
+  },
+  {
+    "autor": "Prof Marina Malta",
+    "nota": 5,
+    "texto": "Ótima"
+  },
+  {
+    "autor": "Aisha Milena",
+    "nota": 5,
+    "texto": "Eu amei o atendimento e a recepção, estão de parabéns!!!!"
+  },
+  {
+    "autor": "Ednaldo Alves",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Hosana Fontes",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Ana Cecília Costa Duarte",
+    "nota": 5,
+    "texto": "Atendimento excelente, preço justo, recomendo!"
   },
   {
     "autor": "Joelma de Carvalho",
@@ -20,8 +120,953 @@
     "texto": "Gostei bastante do atendimento, veterinária bem atencioso e cuidadosa com meu Chico voltarei com toda certeza ❤️"
   },
   {
+    "autor": "JOÃO BARBOZA DOS SANTOS",
+    "nota": 5,
+    "texto": "Excelente atendimento. Local bom e agradável.👍"
+  },
+  {
+    "autor": "Maria do Perpétuo Socorro Silveira Santos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Manoel Neto",
+    "nota": 5,
+    "texto": "Ótimo"
+  },
+  {
+    "autor": "Scheila Dias",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Ebenezer lima",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Dilma Cabral",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Flavio Lins",
+    "nota": 5,
+    "texto": "Atenciosos, prestativos, não tenho do q me queixar, nem minha gatinha. Sempre informaram sobre o procedimento e orientaram após também."
+  },
+  {
     "autor": "Janecleis Gonçalves Assis",
     "nota": 5,
     "texto": "Atendimento cordial e muito carinhoso com meu pet."
+  },
+  {
+    "autor": "Eliete Britto",
+    "nota": 5,
+    "texto": "Fomos bem atendidos, superou nossa expectativa. Parabéns!"
+  },
+  {
+    "autor": "Larissa Honorato",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Juliana Panizzi",
+    "nota": 5,
+    "texto": "Atendimento maravilhoso, clínica muito limpa e organizada."
+  },
+  {
+    "autor": "Adriano Correia Quiorato",
+    "nota": 5,
+    "texto": "Muita boa 👍🏻"
+  },
+  {
+    "autor": "Fabiana Santos Procópio",
+    "nota": 5,
+    "texto": "Ótimo local, com profissionais altamente capacitadas, atedimento maravilhoso e acolhedor."
+  },
+  {
+    "autor": "Aline Monteiro",
+    "nota": 5,
+    "texto": "EXCELENTE! Profissionais competentes e ambiente agradável."
+  },
+  {
+    "autor": "Alane Costa",
+    "nota": 5,
+    "texto": "Excelente atendimento. Ambiente agradável e profissionais atenciosos. Recomendo."
+  },
+  {
+    "autor": "Iara Maria",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Matheus Martins",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "alagoas PetFênix",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "On Marketing Full service communication",
+    "nota": 5,
+    "texto": "Excelente atendimento, melhores preços da cidade entrega rápida e sem custo, melhores marcas, variedades de produtos."
+  },
+  {
+    "autor": "Brena Nunes",
+    "nota": 5,
+    "texto": "atendimento muito bom, rapido e facilitado!! veterinarios com cuidado e muito amor pelos pets! amei💞💞"
+  },
+  {
+    "autor": "Malu Lopes - Ma Prem Jagruti",
+    "nota": 5,
+    "texto": "Maravilhoso serviço. Atendimento 100000. Gratidão.  Recomendo demais. 💯💯💯💯💯💯💯"
+  },
+  {
+    "autor": "Ana Paula Ana",
+    "nota": 5,
+    "texto": "Atendimento maravilhoso, profissionais excelentes e humanizados"
+  },
+  {
+    "autor": "Karine Melo",
+    "nota": 5,
+    "texto": "Excelente atendimento! Cuidado com os pets durante e após os procedimentos 👏👏👏"
+  },
+  {
+    "autor": "José Manoel dos Santos Paz",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Zita Lessa",
+    "nota": 5,
+    "texto": "Ótima 👏👏👏 maravilhosa"
+  },
+  {
+    "autor": "Luiz Pessoa",
+    "nota": 5,
+    "texto": "muito boa clinica! cuidou da minha gatinha muito bem, deu sache e foram uns amores, recomendo demais"
+  },
+  {
+    "autor": "vilma dos santos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "José Arimatéia Silva",
+    "nota": 5,
+    "texto": "Atenciosamente fomos bem atendido. Obg"
+  },
+  {
+    "autor": "Tabatha Cavalcante",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Rebeka van Rooijen",
+    "nota": 5,
+    "texto": "Atendimento muito bom, me mudei para Maceió e estava com dificuldade em encontrar clínicas boas que sabem manejar os bichinhos. Atendimento com amor que minha Kaya recebeu da vet Marielle!"
+  },
+  {
+    "autor": "patricia davi",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Karine Melo",
+    "nota": 5,
+    "texto": "Excelente clínica! Em todos as particularidades de atendimentos, ou sejam , da recepção ao atendimento médico, são de extrema atenção e verdadeira dedicação ao ofício.\n\nTodos os meus pets são cuidados por eles.  Inteira confiança, pela ato profissional, bem como o cuidado, zelo e amor aos animais! 👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼"
+  },
+  {
+    "autor": "Sheyla Lima de Araújo",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Geraldo Cesar",
+    "nota": 5,
+    "texto": "Muito boa, totalmente positiva e um excelentes grupo de médicos veterinários......\nEstão de parabéns !!!! 👏"
+  },
+  {
+    "autor": "JANICE GOUVEIA369",
+    "nota": 5,
+    "texto": "Agradeço a atenção de todos da equipe. São super cuidadosos."
+  },
+  {
+    "autor": "Vitória Faria",
+    "nota": 5,
+    "texto": "Experiência incrível! Veterinários atenciosos, super competentes, tiram todas as suas dúvidas e são super honestos quanto ao tratamento. Conheci a Dog e Cat depois de uma experiência ruim com outra clínica e desde então são a minha referência para atendimento e tratamento ao meu cachorrinho"
+  },
+  {
+    "autor": "camila montenegro",
+    "nota": 5,
+    "texto": "Ótimo atendimento, pessoal super prestativo. A Dra. nem se fala! Super indico de olhos fechados"
+  },
+  {
+    "autor": "Alan felipe Costa da Silva",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Mariana Cavalcante",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Monique Brito",
+    "nota": 5,
+    "texto": "Tenho uma lista imensa de gatos castrados nessa clínica. Equipe dedicada pelos animais sempre."
+  },
+  {
+    "autor": "Bianca Rafaelly",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "É o Nissa",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Lucas Bezerra",
+    "nota": 5,
+    "texto": "Muito bom"
+  },
+  {
+    "autor": "Mah Santos",
+    "nota": 5,
+    "texto": "Excelente Prestação de serviço, Cuida com muito amor e carinho dos meus pets ❤️🐕🐈"
+  },
+  {
+    "autor": "Elizangela Lopes",
+    "nota": 5,
+    "texto": "Sou cliente da clina há bastante tempo, e o único lugar em que confio deixar os meus pets. Ótimo atendimento e amor de verdade pelos animais."
+  },
+  {
+    "autor": "janice cantarelli",
+    "nota": 5,
+    "texto": "Dra. Marielle muito atenciosa com minhas pets. Que Deus abençoe sua carreira profissional 🙌🙌"
+  },
+  {
+    "autor": "Louise Lira",
+    "nota": 5,
+    "texto": "Nunca vi um atendimento veterinário tão amoroso 🥰 Amei!"
+  },
+  {
+    "autor": "Ceres Louise",
+    "nota": 5,
+    "texto": "Consulta e castração com ótimos preços, serviço profissional, pessoal atencioso! Melhor custo benefício da região. Serviços com preço popular. Recomendo!"
+  },
+  {
+    "autor": "Williamis Penhafiel",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Foco nas metas",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Ricardo Santos de Vasconcelos (Ricardo Vasconcelos)",
+    "nota": 5,
+    "texto": "Atendimento rate eficiênte"
+  },
+  {
+    "autor": "Eva Vilma",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Thales Madeiro",
+    "nota": 5,
+    "texto": "Sempre nos atendem muito bem. Ótimos profissionais e preços justos."
+  },
+  {
+    "autor": "Tomaz Alves Leal Junior",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "*Del Jhúnior",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Thiago Marques",
+    "nota": 5,
+    "texto": "Atendimento excelente e profissionais que cuidam do seu pet com muita carinho, recomendo 100%"
+  },
+  {
+    "autor": "Carlos Eduardo Somavilla",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Kamilly Vitória",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Mayara Rocha",
+    "nota": 5,
+    "texto": "Veterinárias bem atenciosas e o atendimento bem humanizado. Cheguei com meu cão bem apavorado, e fui muito bem atendida. Super recomendo!"
+  },
+  {
+    "autor": "jack Hair perucas e cabelos cabelos.",
+    "nota": 5,
+    "texto": "Bem trarado"
+  },
+  {
+    "autor": "Marcos Vieira",
+    "nota": 5,
+    "texto": "Clínica popular com bons serviços e bom atendimento."
+  },
+  {
+    "autor": "Marima Oliveira",
+    "nota": 5,
+    "texto": "Atendimento rápido, ótima castração e o preço acessível"
+  },
+  {
+    "autor": "Amalia Del Puelo",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "virginia leao",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Geane Candido",
+    "nota": 5,
+    "texto": "Bom atendimento"
+  },
+  {
+    "autor": "Débora Jobim",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "João Batinga",
+    "nota": 5,
+    "texto": "Muito boa"
+  },
+  {
+    "autor": "elcimar silva",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Iasmim Costa",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Igor Freitas",
+    "nota": 5,
+    "texto": "Recebi uma indicação de uma pessoa que foi Pet Sitter e não me arrependo. Precisei deixar a minha gata lá por duas semanas, aproveitando pra fazer castração e foi tudo muito tranquilo desde o primeiro contato.\n\nPreço justo e serviços de qualidade. Minha gata voltou pra casa bem cuidada. Podem confiar na equipe da Dog & Cat!"
+  },
+  {
+    "autor": "Milena Costa",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Gabriel Matos",
+    "nota": 5,
+    "texto": "Um ótimo atendimentos e um bom espaço. Com certeza, um local de confiança."
+  },
+  {
+    "autor": "Anna Carolina De Campos Magano",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Viviane Ferreira Moreira",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Vanessa Guimarães de Moraes",
+    "nota": 5,
+    "texto": "Recomendo sempre ♥️"
+  },
+  {
+    "autor": "Carlos Alberto",
+    "nota": 5,
+    "texto": "Um bom lugar para cuidar do seu pets."
+  },
+  {
+    "autor": "Beto Lima",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Rafaella C",
+    "nota": 5,
+    "texto": "P consulta nunca tive problema, mas hj foi a última vez q levei um animal na clínica, mesmo pq a minha morreu la. Perdi minha gatinha e não fui informada antes dos riscos de forma clara da cirurgia. Infelizmente achei q pq a consulta foi boa, p cirurgia TB seria..... Mas me enganei. Veterinários tão competentes q quando foi buscar o animal morto não tinha um p explicar o q aconteceu.... Colocou p ouvir um áudio da anestesista só.... E entregou um saco preto..."
+  },
+  {
+    "autor": "Waldemir Martins de Castro Júnior",
+    "nota": 5,
+    "texto": "Excelente atendimento!"
+  },
+  {
+    "autor": "Sergio Rodrigues dos Santos",
+    "nota": 5,
+    "texto": "Um Bom atendimento e a certeza que os animais são bem cuidados."
+  },
+  {
+    "autor": "Rose Daly",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Gustavo Tenorio",
+    "nota": 5,
+    "texto": "Bom atendimento ..preços justos..\n\nE tem o \"atendente Téo\"...um cachorrinho que fica na recepção ..\"recebendo os clientes\"..."
+  },
+  {
+    "autor": "Ruy Gonçalves Queiroz",
+    "nota": 5,
+    "texto": "Atendimento 10"
+  },
+  {
+    "autor": "Alexandre Paes",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Janice Gouveia",
+    "nota": 5,
+    "texto": "Bom atendimento, preços acessíveis."
+  },
+  {
+    "autor": "Sandra Rodrigues",
+    "nota": 5,
+    "texto": "Preços acessíveis, atendimento excelente. Profissionais atenciosos."
+  },
+  {
+    "autor": "Vilma Santos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "thalita vollertt",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Hyago Carvalho",
+    "nota": 5,
+    "texto": "Excelente em atendimento"
+  },
+  {
+    "autor": "Gustavo Mariano",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Stela Cavalcanti",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Larissa Omena",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Ademilton Bento",
+    "nota": 5,
+    "texto": "Bom."
+  },
+  {
+    "autor": "Rafaella Cunha",
+    "nota": 5,
+    "texto": "Maravilhosa essa clínica. Que veterinária perfeita a Jessica Carolina, tratou meu bichinho tão bem... Ele ficou muito a vontade..."
+  },
+  {
+    "autor": "Dennilson Vieira",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Larissa Dalva",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Everson Alyson",
+    "nota": 5,
+    "texto": "Ótimo atendimento e profissionais de qualidade!!!"
+  },
+  {
+    "autor": "Vitória Valentim",
+    "nota": 5,
+    "texto": "Clínica nota 1000. Não tenho o que reclamar. Toda equipe é extremamente atenciosa e empática. Os preços são diferenciados mas sem deixar a desejar na hora de cuidar da saúde do nossos pequenos."
+  },
+  {
+    "autor": "Jéssica Cavalcante",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Thiago de Lima Medeiros",
+    "nota": 5,
+    "texto": "Ótimo atendimento,lugar incrível,e super acolhedor"
+  },
+  {
+    "autor": "Luiza Verner",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Kécia Raiane",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Plinius Buenos Ayres",
+    "nota": 5,
+    "texto": "Atendimento e cuidados maravilhosos."
+  },
+  {
+    "autor": "Eduardo Gomes Neto",
+    "nota": 5,
+    "texto": "Atendimento com amor aos nossos pets"
+  },
+  {
+    "autor": "Carol Medeiros",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Dayane",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Cerize Borges",
+    "nota": 5,
+    "texto": "Super recomendo"
+  },
+  {
+    "autor": "Afra Santos",
+    "nota": 5,
+    "texto": "Ótima atendimento 😊"
+  },
+  {
+    "autor": "Jose sergio js",
+    "nota": 5,
+    "texto": "Salvou meu pet"
+  },
+  {
+    "autor": "Gisleiny Santos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "C2 Cosméticos e Serviços",
+    "nota": 5,
+    "texto": "competência e qualidade"
+  },
+  {
+    "autor": "Luana Priscila",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "João Carlos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Dione Santos",
+    "nota": 5,
+    "texto": "Ótimo atendimento!"
+  },
+  {
+    "autor": "Ricardo Melo",
+    "nota": 5,
+    "texto": "Ótimos profissionais, atendimento perfeito.\nCuidaram muito bem da nossa pet yelena."
+  },
+  {
+    "autor": "Dra Elizangela Lopes",
+    "nota": 5,
+    "texto": "Ótima experiência,  clínica com profissionais bem atenciosos e que tem um carinho e cuido muito grande pelos animais.  Deixo meus pensamentos lá sem medo algum, depois que perdi um gatinho na clínica HVT, fiquei com receio de deixar meus animais em clínica veterinária, mas a Dog e CAT, conseguiu recuperar a minha confiança! Super indico."
+  },
+  {
+    "autor": "Valquiria Calheiros",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Marilda Barros",
+    "nota": 5,
+    "texto": "Amei"
+  },
+  {
+    "autor": "Maira Paes",
+    "nota": 5,
+    "texto": "Maravilhosa! Clínica com profissionais extremamente carinhosas e \"humanas\"."
+  },
+  {
+    "autor": "Ingrid Leilane",
+    "nota": 5,
+    "texto": "É uma clínica que trabalha com muito amor pelo que fazem. ❤️"
+  },
+  {
+    "autor": "Emanuely Javarrotti",
+    "nota": 5,
+    "texto": "Ótimo atendimento, super atenciosas e cuidadosas com o animal. Profissional muito boa e me explicou tudo. Minha gata ficou super tranquila mesmo tomando vacina 😍"
+  },
+  {
+    "autor": "gilson sj",
+    "nota": 5,
+    "texto": "Boa"
+  },
+  {
+    "autor": "Debora Santos",
+    "nota": 5,
+    "texto": "Bem receptivos e cuidados com minha Maria. Obrigado"
+  },
+  {
+    "autor": "Janaine Folle",
+    "nota": 5,
+    "texto": "Meninas otimas e oti.o preço recomendo"
+  },
+  {
+    "autor": "Bianca Porfirio",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "rafael ferreira",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Rafaela Ancelmo",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Tina Ferreira",
+    "nota": 5,
+    "texto": "Melhor clínica, melhor atendimento!!!! AMEI!!!"
+  },
+  {
+    "autor": "ruty e bernardo",
+    "nota": 5,
+    "texto": "Super atendimento, carinhosos com nossos filhotes😍😍😺😺 pra mim é tudo.estao d parabens"
+  },
+  {
+    "autor": "Jacqueline Monte",
+    "nota": 5,
+    "texto": "Clínica maravilhosa,  profissionais super competentes!!\nSuper indico!!"
+  },
+  {
+    "autor": "Neide Lima",
+    "nota": 5,
+    "texto": "Meu dog foi bem atendido. otima experiência"
+  },
+  {
+    "autor": "Joelma Lima",
+    "nota": 5,
+    "texto": "Clínica maravilhosa 😽 super recomendo 😘"
+  },
+  {
+    "autor": "Katiuza Anatashy",
+    "nota": 5,
+    "texto": "Muito bom, organizado, tias preparadas para atender, atendimento excelente, preço acessível."
+  },
+  {
+    "autor": "Daphne Vargas",
+    "nota": 5,
+    "texto": "Uma clínica de ótima qualidade e confiança!"
+  },
+  {
+    "autor": "Thiago Salgueiro",
+    "nota": 5,
+    "texto": "Atendimento excepcional, preço muito bom também. Recomendo muito!"
+  },
+  {
+    "autor": "Karla Bispo",
+    "nota": 5,
+    "texto": "Ótimo atendimento desde da marcação até o atendimento, a Cris é maravilhosa e a vet. Análice que atendeu minha 🐱 é super atenciosa e cuidadosa com minha filha 🐱 ❤️ parabéns, super recomendo ❤️"
+  },
+  {
+    "autor": "Jmcg.gonzaga@homail.com Gonzaga",
+    "nota": 5,
+    "texto": "Boa"
+  },
+  {
+    "autor": "Milena Lino",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Auryelly Campos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Candice Pessoa",
+    "nota": 5,
+    "texto": "Atendimento maravilhoso e o lugar é  ótimo. Realmente gostam de animais"
+  },
+  {
+    "autor": "Janilson Almeida",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Talisson Kauã",
+    "nota": 5,
+    "texto": "Ótimo atendimento,  ótima estrutura e são bem preparados."
+  },
+  {
+    "autor": "Thaysa Davino",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "roseane uchoa",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Mylene Leite",
+    "nota": 5,
+    "texto": "Local limpo, agradável, equipe simpática, prestativa e preços convidativos."
+  },
+  {
+    "autor": "Luana Melo",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Eu sou A lei",
+    "nota": 5,
+    "texto": "Muito bom os profissionais"
+  },
+  {
+    "autor": "Silvania Moura",
+    "nota": 5,
+    "texto": "Fui muito em atendida. Equipe.muito competente."
+  },
+  {
+    "autor": "Jessica Gomes",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Cledson Silva Souza Souza",
+    "nota": 5,
+    "texto": "Muito aconchegante"
+  },
+  {
+    "autor": "maria eduarda cavalcante",
+    "nota": 5,
+    "texto": "Lugar maravilhoso e cuidado com os bichinhos, nota 10!"
+  },
+  {
+    "autor": "Lucilene Ramires",
+    "nota": 5,
+    "texto": "O atendimento é muito bom e os preços são muito acessíveis."
+  },
+  {
+    "autor": "Geicilene Ramires",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Tha Pedrosa",
+    "nota": 5,
+    "texto": "Clínica maravilhosa, super pacientes com os pets, muito profissionais e experientes,  ambiente agradabilíssimo. É perceptível o zelo e amor pelos animais. Equipamentos de primeira qualidade profissionais experientes, qualificados e amantes dos animais!"
+  },
+  {
+    "autor": "Helenilda Nascimento",
+    "nota": 5,
+    "texto": "Tudo ótimo atendimento veterinária amei obg meninas"
+  },
+  {
+    "autor": "Pedro Alves Neto",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Rayane Milena",
+    "nota": 5,
+    "texto": "Equipe atenciosa e muito competente, amei!"
+  },
+  {
+    "autor": "Glauber Melo",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Márcia Cedrim",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "María Amalia Lorenzo Rey",
+    "nota": 5,
+    "texto": "Levei minha cadelinha de 1 ano para fazer a cirurgia de castração. O atendimento é ótimo, os valores são acessíveis. Luna foi operada pela Dra Sandra, excelente profissional, a anestesista também. A cirurgia foi um sucesso, lá mesmo comprei os remédios necessários para o pós operatório, num preço justo. Tratam os animais com carinho e respeito. Recomendo a todos!"
+  },
+  {
+    "autor": "Veruska Sales",
+    "nota": 5,
+    "texto": "👏🏼"
+  },
+  {
+    "autor": "Alvaro Sales",
+    "nota": 5,
+    "texto": "Clínica com boa localização, atendimento impecável e os veterinários se mostraram muito competentes."
+  },
+  {
+    "autor": "Vanessa Gusmão",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Juremha",
+    "nota": 5,
+    "texto": "Excelente atendimento! Recomendo levarem seus animaizinhos lá ^^"
+  },
+  {
+    "autor": "Carla Sena",
+    "nota": 5,
+    "texto": "Eu amei o atendimento e a praticidade do local, agora ficamos clientes. Levei minha gatinha para castrar e ela já sai com roupinha protetora e lá já vende o kit da medicação que realmente iremos usar, sem desperdício. Preço muito bom!"
+  },
+  {
+    "autor": "FABIANA SILVA BARROS",
+    "nota": 5,
+    "texto": "Muito atenciosos e organizados. O procedimento transcorreu bem e seguimos todas as orientações."
+  },
+  {
+    "autor": "Adriana Costa",
+    "nota": 5,
+    "texto": "Muito acolhedores. Prestaram as informações pedidas e tiraram as dúvidas. Indico a donos de cães e gatos."
+  },
+  {
+    "autor": "Delane Barros",
+    "nota": 5,
+    "texto": "Equipe acolhedora, feita por pessoas que, realmente, gostam de animais. Senti-me confiante em realizar uma cirurgia no meu pet"
+  },
+  {
+    "autor": "Isabella Lima",
+    "nota": 5,
+    "texto": "Profissionais muito boas e carinhosas!"
+  },
+  {
+    "autor": "Noriane Isabely",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "sandro santos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Izadora García",
+    "nota": 5,
+    "texto": "Atendimento super atencioso, com uma das veterinárias que mais confio no estado. Excelente custo-benefício. Recomendo a todos."
+  },
+  {
+    "autor": "Isaac Freitas",
+    "nota": 5,
+    "texto": "Estrutura Excelente. Atendimento excepcional. Pessoal super capacitado e Humano."
+  },
+  {
+    "autor": "Thallyta Farias",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Geisi Gomes",
+    "nota": 5,
+    "texto": "Clinica ótima.  Profissionais maravilhosos."
+  },
+  {
+    "autor": "Wagner Santos",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "ianka rodrigues",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Neto Martins",
+    "nota": 5,
+    "texto": "Castrei minhas duas gatinhas Ana e Julia nesta clínica e foram excelentes. Atendimento especial, são muito organizadas e atenciosas. Muito obrigada, minhas gatinhas estão ótimas. E um beijo Marcos Aurélio."
+  },
+  {
+    "autor": "Juliana Ragazzi",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Rosane Ragazzi",
+    "nota": 5,
+    "texto": "Todos atenciosos e cuidadosos com nossos bichinhos."
+  },
+  {
+    "autor": "Rosane Pinheiro",
+    "nota": 5,
+    "texto": "Atendeu aos meus objetivos. Funcionários prestativos e amáveis com a minha cachorrinha. Profissionais comprometidos. Serviço de qualidade e bom preço. Adorei. Estão de parabéns."
+  },
+  {
+    "autor": "Elaine Pimentel",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Graziela Tamara",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "JVSN Néto57",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Ana Paula Lusitano",
+    "nota": 5,
+    "texto": ""
+  },
+  {
+    "autor": "Luiza Souza",
+    "nota": 5,
+    "texto": "Estou bastante feliz de ter encontrado a dog e cat, tudo feito com muito amor, carinho e atenção ao animalzinho e também com o cliente. Saímos muito satisfeitos e com a certeza de que iremos retornar e recomendar!\nPodem confiar ❤️"
+  },
+  {
+    "autor": "therezinha de paula da silva de Oliveira",
+    "nota": 5,
+    "texto": "Todos nossos bichinhos são cuidados pela dog e cat. São muito atenciosos! Cuidado e carinho no atendimento. Super recomendo! A vet de lá já é médica da nossa família pet."
+  },
+  {
+    "autor": "Luciana Vanderley",
+    "nota": 5,
+    "texto": "Clínica excelente!\nRecomendo!"
+  },
+  {
+    "autor": "Izaac Alencar",
+    "nota": 5,
+    "texto": "Serviço de qualidade!"
+  },
+  {
+    "autor": "Liz Freitas",
+    "nota": 5,
+    "texto": "Amor e dedicação aos peludinhos."
   }
 ]

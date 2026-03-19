@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.servetclinica.com.br/sitemap.xml
