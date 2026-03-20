@@ -127,6 +127,7 @@ p{
 .hero .container{
 	position:relative;
 	z-index:3;
+	max-width:1400px;
 }
 
 .hero-section .row{
@@ -142,9 +143,9 @@ p{
 .hero-text{
 	background:rgba(255,255,255,0.75);
 	backdrop-filter:blur(10px);
-	padding:30px;
+	padding:40px;
 	border-radius:16px;
-	max-width:520px;
+	max-width:100%;
 	box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
@@ -171,17 +172,32 @@ p{
 
 /* TIPOGRAFIA */
 .hero h1{
-	font-size:48px;
+	font-size:clamp(30px, 3vw, 42px); /* 🔥 reduzido */
 	line-height:1.2;
+	font-weight:800;
+}
+
+/* TEXTO FORTE DE VERDADE */
+.hero-sub{
+	font-size:clamp(20px, 1.8vw, 26px);
+	line-height:1.6;
+	font-weight:500;
 }
 
 .hero h3{
-	font-size:20px;
-	margin:15px 0;
+	font-size:clamp(20px, 1.6vw, 24px);
+	font-weight:600;
+	margin:18px 0;
 }
 
 .hero p{
-	font-size:17px;
+	font-size:clamp(18px, 1.4vw, 20px);
+	line-height:1.7;
+}
+
+.hero-urgency{
+	font-size:15px;
+	font-weight:600;
 }
 
 /* BOTÃO */
@@ -208,14 +224,6 @@ p{
 	margin-bottom:15px;
 }
 
-/* SUBTEXTO */
-.hero-sub{
-	font-size:18px;
-	color:#444;
-	margin:15px 0 25px;
-	line-height:1.6;
-}
-
 /* AÇÕES */
 .hero-actions{
 	display:flex;
@@ -234,12 +242,6 @@ p{
 .hero .btn-success:hover{
 	transform:translateY(-2px);
 	box-shadow:0 10px 25px rgba(37,211,102,0.4);
-}
-
-.hero-urgency{
-	font-size:14px;
-	color:#666;
-	margin-top:10px;
 }
 
 .btn-servet{
@@ -933,7 +935,7 @@ footer{
 		padding:120px 0 60px;
 	}
 	.hero h1{
-		font-size:36px;
+		font-size:32px;
 	}
 	.navbar-nav .nav-item{
 		margin-left:0;
@@ -961,19 +963,16 @@ footer{
 		padding:25px;
 	}
 
-	.hero h1{
-		font-size:28px;
-	}
-
 	.hero h3{
 		font-size:18px;
 	}
 
 	.hero p{
-		font-size:15px;
+		font-size:17px;
 	}
+
 	.hero-sub{
-		font-size:16px;
+		font-size:18px;
 	}
 
 	.hero-actions{
@@ -1038,6 +1037,17 @@ footer{
 
 /* DESKTOP: remove efeito ativo */
 @media(min-width: 992px){
+	.hero{
+		min-height:auto !important;
+		height:auto !important;
+		padding:140px 0 120px; /* 🔥 aumenta espaço embaixo */
+	}
+
+	.hero .row{
+		min-height:auto !important;
+		height:auto !important;
+	}
+	
 	.review-card{
 		opacity:1;
 		transform:scale(1);
