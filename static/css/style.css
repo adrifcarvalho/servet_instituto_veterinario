@@ -12,11 +12,24 @@ h1,h2,h3,h4,h5,h6{
 	margin-top:0;
 }
 
+h2{
+	margin-bottom:15px;
+}
+
 p{
 	font-family:'Poppins',sans-serif;
 	font-weight:400;
+	line-height:1.7;
 	color:#333;
 	margin-bottom:1rem;
+}
+
+.btn{
+	transition:all .25s ease;
+}
+
+.btn:hover{
+	transform:translateY(-2px);
 }
 
 /* MENU SOBRE HERO */
@@ -76,50 +89,157 @@ p{
 }
 
 /* HERO COM IMAGEM LATERAL */
-
 .hero{
 	position:relative;
 	min-height:100vh;
-	padding-top:120px;
-	background:#D5F5EE;
 	display:flex;
 	align-items:center;
+	padding-top:120px;
+	background:#D5F5EE;
 	overflow:hidden;
 }
 
+/* IMAGEM */
+.hero::before{
+	content:"";
+	position:absolute;
+	inset:0;
+	background:
+		url("https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8") center/cover no-repeat;
+	z-index:1;
+}
+
+/* OVERLAY INTELIGENTE */
 .hero::after{
 	content:"";
 	position:absolute;
-	top:0;
-	right:0;
-	width:50%;
-	height:100%;
-	background:
-		linear-gradient(rgba(213,245,238,0.15), rgba(213,245,238,0.15)),
-		url("https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8");
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:cover;
-	opacity:0.9;
-}
-
-.hero .container{
-	position:relative;
+	inset:0;
+	background:linear-gradient(
+		90deg,
+		rgba(213,245,238,0.95) 40%,
+		rgba(213,245,238,0.7) 60%,
+		rgba(0,0,0,0.4) 100%
+	);
 	z-index:2;
 }
 
+/* CONTEÚDO */
+.hero .container{
+	position:relative;
+	z-index:3;
+}
+
+.hero-section .row{
+	align-items:stretch;
+}
+
+.hero-section .col-lg-6{
+	display:flex;
+	flex-direction:column;
+}
+
+/* CARD MODERNO */
+.hero-text{
+	background:rgba(255,255,255,0.75);
+	backdrop-filter:blur(10px);
+	padding:30px;
+	border-radius:16px;
+	max-width:520px;
+	box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.hero-video{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.hero-video video{
+	display:block;
+	margin:auto;
+	max-width:100%;
+}
+
+@media(max-width:768px){
+	.hero-video video{
+		width:100%;
+		height:auto;
+		max-height:none; /* 🔥 remove o limite */
+		margin-top:20px;
+	}
+}
+
+/* TIPOGRAFIA */
 .hero h1{
 	font-size:48px;
+	line-height:1.2;
+}
+
+.hero h3{
+	font-size:20px;
+	margin:15px 0;
 }
 
 .hero p{
-	font-size:18px;
-	margin-bottom:30px;
+	font-size:17px;
 }
 
-.hero-img{
-	width:100%;
-	border-radius:10px;
+/* BOTÃO */
+.hero .btn{
+	border-radius:30px;
+	padding:12px 28px;
+	font-weight:600;
+}
+
+.hero .row{
+	min-height:80vh;
+}
+
+/* BADGE */
+.hero-badge{
+	display:inline-block;
+	background:#C8F77F;
+	color:#1B5E8C;
+	font-weight:700;
+	font-family:'Nunito',sans-serif;
+	padding:6px 14px;
+	border-radius:20px;
+	font-size:13px;
+	margin-bottom:15px;
+}
+
+/* SUBTEXTO */
+.hero-sub{
+	font-size:18px;
+	color:#444;
+	margin:15px 0 25px;
+	line-height:1.6;
+}
+
+/* AÇÕES */
+.hero-actions{
+	display:flex;
+	gap:15px;
+	flex-wrap:wrap;
+}
+
+/* BOTÃO PREMIUM */
+.hero .btn-success{
+	background:#25D366;
+	border:none;
+	box-shadow:0 6px 20px rgba(37,211,102,0.3);
+	transition:all .25s ease;
+}
+
+.hero .btn-success:hover{
+	transform:translateY(-2px);
+	box-shadow:0 10px 25px rgba(37,211,102,0.4);
+}
+
+.hero-urgency{
+	font-size:14px;
+	color:#666;
+	margin-top:10px;
 }
 
 .btn-servet{
@@ -182,6 +302,7 @@ p{
 	font-size:18px;
 	font-weight:600;
 	color:#1B5E8C;
+	margin-top:10px;	
 	margin-bottom:20px;
 }
 
@@ -211,6 +332,21 @@ p{
 	box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
+.about-list{
+	list-style:none;
+	padding:0;
+	margin:20px 0;
+}
+
+.about-list li{
+	font-size:15px;
+	color:#444;
+	margin-bottom:10px;
+	display:flex;
+	align-items:center;
+	gap:8px;
+}
+
 /* mobile */
 @media(max-width:768px){
 	.about-box{
@@ -225,6 +361,44 @@ p{
 		margin-top:15px;
 		max-height:300px;
 	}
+}
+
+.service-box{
+	padding:35px;
+	border-radius:16px;
+	background:#ffffff;
+	transition:all .3s;
+	height:100%;
+	box-shadow:0 8px 25px rgba(0,0,0,0.05);
+	border:1px solid rgba(0,0,0,0.04);
+}
+
+.service-box:hover{
+	transform:translateY(-6px);
+	box-shadow:0 15px 40px rgba(0,0,0,0.1);
+}
+
+.service-box p{
+	font-size:14px;
+	line-height:1.5;
+	max-height:95px;
+	overflow:hidden;
+}
+
+.service-box:hover p{
+	max-height:500px;
+}
+
+.service-icon{
+	font-size:32px;
+	margin-bottom:15px;
+}
+
+.services-trust{
+	text-align:center;
+	font-weight:600;
+	color:#444;
+	margin-bottom:20px;
 }
 
 .gallery{
@@ -501,6 +675,20 @@ footer p{
 	background:linear-gradient(to left, #fff, transparent);
 }
 
+.review-card{
+	position:relative;
+}
+
+.review-card::after{
+	content:"“";
+	position:absolute;
+	top:10px;
+	right:15px;
+	font-size:40px;
+	color:rgba(0,0,0,0.05);
+	font-family:serif;
+}
+
 /* 🔥 BOTÕES */
 .scroll-btn{
 	position:absolute;
@@ -549,6 +737,16 @@ footer p{
 	padding-right:calc(50% - 150px);
 }
 
+.whatsapp-float{
+	animation:whatsPulse 2.5s infinite;
+}
+
+@keyframes whatsPulse{
+	0%{transform:scale(1);}
+	50%{transform:scale(1.08);}
+	100%{transform:scale(1);}
+}
+
 /* DESKTOP (remove centralização feia) */
 @media(min-width: 992px){
 	.reviews-scroll{
@@ -591,6 +789,7 @@ footer p{
 @media(min-width: 992px){
 	.review-card{
 		scroll-snap-align:start;
+		border:1px solid rgba(0,0,0,0.04);
 	}
 }
 
@@ -620,6 +819,13 @@ footer p{
 	font-size:14px;
 	color:#555;
 	line-height:1.5;
+}
+
+.reviews-trust{
+	font-size:16px;
+	color:#555;
+	margin-top:8px;
+	margin-bottom:10px;
 }
 
 /* estrelas */
@@ -742,18 +948,41 @@ footer{
 		height:50px;
 	}
 	.hero{
+		padding:100px 20px 60px;
 		text-align:center;
-		padding:100px 0 50px;
 	}
+
+	.hero::after{
+		background:rgba(0,0,0,0.55); /* overlay forte no mobile */
+	}
+
+	.hero-text{
+		background:rgba(255,255,255,0.9);
+		padding:25px;
+	}
+
 	.hero h1{
-		font-size:30px;
+		font-size:28px;
 	}
+
+	.hero h3{
+		font-size:18px;
+	}
+
 	.hero p{
+		font-size:15px;
+	}
+	.hero-sub{
 		font-size:16px;
 	}
-	.hero-img{
-		margin-top:30px;
+
+	.hero-actions{
+		justify-content:center;
 	}
+
+	.hero-badge{
+		font-size:12px;
+	}	
 	.services{
 		padding:60px 0;
 	}
@@ -819,4 +1048,13 @@ footer{
 		transform:scale(1);
 		box-shadow:0 8px 20px rgba(0,0,0,0.08);
 	}
+	.about .row{
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.about .col-lg-6{
+		flex:0 0 50%;
+		max-width:50%;
+	}	
 }

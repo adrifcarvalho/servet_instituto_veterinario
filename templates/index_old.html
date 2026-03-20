@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="sLeXMFN4Fl8NsaX6qPw99AGYG1sFFf4G7tXvX4surhs" />	<title>Instituto Veterinário Servet</title>
+
+	<title>Clínica Veterinária em Maceió | Instituto Veterinário Servet</title>
+	
+	<meta name="description" content="Clínica veterinária em Maceió com atendimento humanizado para cães e gatos. Consultas, vacinas, exames e cirurgias.">
+	<meta name="keywords" content="clínica veterinária maceió, veterinário maceió, consulta veterinária, castração maceió">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://seudominio.com/">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+	<div id="preloader">
+		<div class="loader">
+			<img src="{{ url_for('static', filename='img/logo/logo.png') }}">
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="/">
+				<img src="{{ url_for('static', filename='img/logo/logo.png') }}" class="logo">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Início</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sobre">Sobre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#servicos">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#localizacao">Localização</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#avaliacoes">Avaliações</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#galeria">Nossos clientes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contato">Contato</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="hero">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 hero-text">
+					<span class="hero-badge">
+						Atendimento humanizado em Maceió
+					</span>
+
+					<h1>
+						Instituto Veterinário Servet - Cuidado veterinário completo para quem é parte da sua família
+					</h1>
+					
+					<p class="hero-sub">
+						Clínica veterinária em Maceió. Consultas, exames, vacinas e cirurgias com estrutura moderna e atendimento acolhedor para cães e gatos.
+					</p>
+
+					<p class="hero-urgency">
+						Atendimento rápido • Resposta imediata no WhatsApp
+					</p>
+
+					<div class="hero-actions">
+
+						<a href="https://wa.me/5582993323004?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento" target="_blank" class="btn btn-success btn-lg">
+							Agendar atendimento agora
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-6 hero-video">					
+					<video autoplay muted loop playsinline controls preload="none">
+						<source src="{{ url_for('static', filename='videos/abertura02.mp4') }}" type="video/mp4">						
+						Seu navegador não suporta vídeo.
+					</video>
+				</div>				
+			</div>
+		</div>
+	</section>
+
+	<section id="sobre" class="about">
+		<div class="container">
+			<div class="about-box">
+				<div class="row align-items-center g-4">
+
+					<!-- TEXTO -->
+					<div class="col-lg-6">
+						<h2>Instituto Veterinário Servet. Referência em cuidado veterinário em Maceió</h2>
+
+						<p class="about-highlight">
+							Atendimento moderno, ético e verdadeiramente humanizado.
+						</p>
+
+						<ul class="about-list">
+							<li>✔ Atendimento acolhedor para cães e gatos</li>
+							<li>✔ Estrutura moderna para consultas e cirurgias</li>
+							<li>✔ Profissionais experientes e atualizados</li>
+							<li>✔ Acompanhamento próximo do tutor</li>
+						</ul>
+
+						<p class="about-highlight">
+							Atendimento focado no bem-estar do animal, com transparência e acompanhamento próximo dos tutores.
+						</p>
+
+						<div class="about-cta">
+							Seu pet merece um cuidado completo e seguro.<br>
+							<strong>Agende e conheça nosso atendimento.</strong>
+						</div>
+					</div>
+
+					<!-- IMAGEM -->
+					<div class="col-lg-6 text-center">
+						<img src="{{ url_for('static', filename='img/place/place.png') }}" class="about-img">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="servicos" class="services">
+		<div class="container">
+			<div class="row text-center mb-5">
+				<div class="col-lg-12">
+					<h2>
+						Melhores Serviços Veterinários
+					</h2>
+					
+					<p class="services-trust">
+						Cuidamos do seu pet como se fosse nosso.
+					</p>
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Consultas clínicas</h4>
+						<p>Consultas veterinárias humanizadas com escuta ativa, diagnóstico preciso e cuidado individualizado. 
+							Para cada tutor, uma conversa. Para cada pet, um plano de cuidado ético e eficiente.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Vacinação segura e atualizada</h4>
+						<p>Realizamos vacinação de cães e gatos. Vacinas essenciais aplicadas com segurança, conforto e orientação 
+							profissional. Proteja seu pet com um calendário vacinal atualizado.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Exames veterinários</h4>
+						<p>Contamos com exames de imagem como raio-X e ultrassonografia para diagnósticos precisos. Equipamentos modernos 
+							e profissionais capacitados garantem rapidez e confiabilidade nos resultados. Tudo em um só lugar.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Cirurgias com estrutura moderna</h4>
+						<p>Realizamos castração, cirurgias abdominais, ortopédicas, odontológicas e mais. Estrutura segura, equipe 
+							experiente e acompanhamento atencioso no pré e pós-operatório.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Castração de cães e gatos</h4>
+						<p>Procedimento com foco em bem-estar, prevenção de doenças e comportamento saudável. Atendimento acolhedor e 
+							acompanhamento pós-cirúrgico.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Cat Hotel</h4>
+						<p>Hospedagem exclusiva para gatos em ambiente seguro, monitorado e com supervisão veterinária. 
+							Espaço confortável e pensado para reduzir o estresse felino. Enviamos fotos e feedbacks diários 
+							para você acompanhar de perto.
+						</p>
+					</div>
+				</div>				
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Dermatologia veterinária</h4>
+						<p>Diagnóstico e tratamento de doenças de pele, coceiras, alergias e problemas dermatológicos em cães e gatos. 
+							Atendimento com olhar técnico e cuidadoso, respeitando a individualidade de cada animal.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Outras especialidades</h4>
+						<p>Possuímos  aatendimento com veterinários parceiros com atendimento em cardiologia, ortopedia, 
+							neurologia, oftalmologia, oncologia, Endocrinologia, Gastroenterologia, Nefrologia, Urologia e Nutrição veterinária
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Medicina de Animais Silvestres e Exóticos</h4>
+						<p>Atendimento especializado para animais como aves, répteis e pequenos mamíferos. Estrutura e conhecimento técnico para garantir 
+							o cuidado ideal a espécies não convencionais.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</section>
+
+	<section id="localizacao" class="location py-5">
+		<div class="container">
+			<div class="row align-items-start g-4">
+				<div class="col-lg-6">
+					<div class="location-card card shadow-sm border-0">
+						<div class="location-title card-header text-center">
+							Localização
+						</div>
+
+						<div class="card-body p-3">
+
+							<div class="map-wrapper">
+								<iframe
+									src="https://www.google.com/maps?q=R.+Gen.+José+Portugal+Ramalho,+87+-+Jatiúca,+Maceió+-+AL,+57036-190&output=embed"
+									width="100%"
+									height="350"
+									allowfullscreen
+									loading="lazy">
+								</iframe>
+							</div>
+
+							<p class="location-address mt-3 text-center">
+								R. Gen. José Portugal Ramalho, 87<br>
+								Jatiúca, Maceió - AL, 57036-190
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="location-card card shadow-sm border-0">
+
+						<div class="location-title card-header text-center">
+							Horário de funcionamento
+						</div>
+
+						<div class="card-body p-0">
+							<table class="table location-table table-hover mb-0 text-center align-middle">
+								<tbody>
+									<tr>
+										<td class="day">segunda-feira</td>
+										<td>08:00–19:00</td>
+									</tr>
+
+									<tr>
+										<td class="day">terça-feira</td>
+										<td>08:00–19:00</td>
+									</tr>
+
+									<tr>
+										<td class="day">quarta-feira</td>
+										<td>08:00–19:00</td>
+									</tr>
+
+									<tr>
+										<td class="day">quinta-feira</td>
+										<td>08:00–19:00</td>
+									</tr>
+
+									<tr>
+										<td class="day">sexta-feira</td>
+										<td>08:00–19:00</td>
+									</tr>
+
+									<tr>
+										<td class="day">sábado</td>
+										<td>08:00–16:00</td>
+									</tr>
+
+									<tr class="closed">
+										<td class="day">domingo</td>
+										<td>Fechado</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="2" class="status-row">
+											{{ status_funcionamento }}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" class="contact-icon">
+											FIXO (82) 3436-3004
+										</td>
+										<td>
+											<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="whatsapp-icon">
+											+55 82 9332-3004
+										</td>
+									</tr>							
+								</tfoot>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="avaliacoes" class="reviews-section py-5">
+		<div class="container">
+
+			<div class="text-center mb-4">
+				<h2>O que nossos clientes dizem</h2>
+
+				<p class="reviews-trust">
+					Atendimento avaliado com excelência por tutores reais
+				</p>
+				
+				<div class="review-summary mt-3">
+					<span class="review-score">{{ media }}</span>
+					<span class="stars-big">★★★★★</span>
+					<p>Mais de <strong>{{ total }} </strong>avaliações positivas no Google</p>
+				</div>
+			</div>
+			
+			<div class="reviews-wrapper">
+				<!-- botão esquerda -->
+				<button class="scroll-btn left">&#10094;</button>
+
+				<div class="reviews-scroll">
+
+					{% for review in reviews %}
+					<div class="review-card">
+
+						<div class="d-flex align-items-center mb-3">
+							<img 
+								src="https://ui-avatars.com/api/?name={{ review.autor }}&background=1B5E8C&color=fff&size=128"
+								class="review-avatar-img">
+
+							<div class="ms-2">
+								<h6 class="mb-0">{{ review.autor }}</h6>
+								<small class="google-label">Avaliação no Google</small>
+							</div>
+						</div>
+
+						<div class="stars mb-2">
+							{% for i in range(review.nota) %}
+								★
+							{% endfor %}
+						</div>
+
+						<p class="review-text">
+							"{{ review.texto }}"
+						</p>
+
+					</div>
+					{% endfor %}
+				</div>
+				<!-- botão direita -->
+				<button class="scroll-btn right">&#10095;</button>
+
+			</div>
+
+			<div class="text-center mt-4">
+				<a 
+					href="https://www.google.com/maps/place/Instituto+Veterin%C3%A1rio+Servet/@-9.665909,-35.708657,17z"
+					target="_blank"
+					class="btn btn-success btn-lg">
+					Ver mais avaliações no Google
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="galeria" class="gallery">
+		<div class="container">
+			<div class="row text-center mb-5">
+				<div class="col-lg-12">
+					<h2>
+						Galeria
+					</h2>
+				</div>
+			</div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1581888227599-779811939961" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a" class="img-fluid">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb" class="img-fluid">
+                </div>
+            </div>
+		</div>
+	</section>
+
+	<footer id="contato">
+		<div class="container">
+			<div class="footer-row">
+
+				<div class="footer-brand">
+					<img src="{{ url_for('static', filename='img/logo/logo.png') }}" class="footer-logo">
+					<div class="footer-title">
+						Instituto Veterinário Servet - CNPJ 41.516.880/0001-30
+					</div>
+				</div>
+
+				<div class="footer-info">
+					RT. Pâmella Monteiro — CRMV 765
+				</div>
+
+				<div class="footer-info">
+					Rua General Ramalho, 87 — Jatiúca, Maceió
+				</div>
+
+				<div class="footer-contact-row">
+
+					<div class="footer-item">
+						<img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" class="contact-icon">
+						<a href="tel:+558234363004">(82) 3436-3004</a>
+					</div>
+
+					<div class="footer-item">
+						<a href="https://instagram.com/servet.institutoveterinario" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="insta-icon">
+							@servet.institutoveterinario
+						</a>
+					</div>
+
+					<div class="footer-item">
+						<a href="https://facebook.com/servetalagoas" target="_blank">
+							<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="insta-icon">
+							servetalagoas
+						</a>
+					</div>
+
+					<div class="footer-item">
+						<a href="mailto:servet.institutoveterinario@gmail.com">
+							<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="insta-icon">
+							servet.institutoveterinario@gmail.com
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<a href="https://wa.me/5582993323004?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento" class="whatsapp-float" target="_blank">
+		<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="whatsapp-icon">
+	</a>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		window.addEventListener("load", function(){
+			document.getElementById("preloader").style.display = "none";
+		});
+	</script>
+
+	<script src="{{ url_for('static', filename='js/hero.js') }}"></script>
+
+	<script>
+		const container = document.querySelector('.reviews-scroll');
+		const cards = document.querySelectorAll('.review-card');
+		const btnLeft = document.querySelector('.scroll-btn.left');
+		const btnRight = document.querySelector('.scroll-btn.right');
+
+		let isDown = false;
+		let startX;
+		let scrollLeft;
+		let velocity = 0;
+		let momentumID;
+
+		container.addEventListener('mousedown', (e) => {
+			isDown = true;
+			startX = e.pageX - container.offsetLeft;
+			scrollLeft = container.scrollLeft;
+			cancelAnimationFrame(momentumID);
+		});
+
+		container.addEventListener('mouseleave', () => isDown = false);
+		container.addEventListener('mouseup', () => {
+			isDown = false;
+			requestAnimationFrame(momentumLoop);
+		});
+
+		container.addEventListener('mousemove', (e) => {
+			if(!isDown) return;
+			e.preventDefault();
+			const x = e.pageX - container.offsetLeft;
+			const walk = (x - startX);
+			velocity = walk;
+			container.scrollLeft = scrollLeft - walk;
+		});
+
+		function momentumLoop(){
+			container.scrollLeft -= velocity;
+			velocity *= 0.95;
+
+			if(Math.abs(velocity) > 0.5){
+				momentumID = requestAnimationFrame(momentumLoop);
+			}
+		}
+
+		btnLeft.addEventListener('click', () => {
+			container.scrollBy({ left: -320, behavior: 'smooth' });
+		});
+
+		btnRight.addEventListener('click', () => {
+			container.scrollBy({ left: 320, behavior: 'smooth' });
+		});
+
+		function updateActiveCard(){
+			// ❌ DESKTOP NÃO USA ACTIVE
+			if(window.innerWidth >= 992){
+				cards.forEach(card => card.classList.remove('active'));
+				return;
+			}
+
+			// ✅ MOBILE USA NORMAL
+			const containerRect = container.getBoundingClientRect();
+			const center = containerRect.left + container.offsetWidth / 2;
+
+			cards.forEach(card => {
+				const cardRect = card.getBoundingClientRect();
+				const cardCenter = cardRect.left + cardRect.width / 2;
+
+				if(Math.abs(center - cardCenter) < cardRect.width / 2){
+					card.classList.add('active');
+				}else{
+					card.classList.remove('active');
+				}
+			});
+		}
+
+		container.addEventListener('scroll', updateActiveCard);
+		window.addEventListener('load', updateActiveCard);
+	</script>
+</body>

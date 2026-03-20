@@ -71,28 +71,28 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-6 hero-text">
-					<div class="video-btn">
-						<a href="https://www.youtube.com/watch?v=V1Pl8CzNzCw" class="play-btn">
-							▶
-						</a>
-					</div>
+					<span class="hero-badge">
+						Atendimento humanizado em Maceió
+					</span>
 
 					<h1>
-						Clínica Veterinária em Maceió - Instituto Veterinário Servet
+						Instituto Veterinário Servet - Cuidado veterinário completo para quem é parte da sua família
 					</h1>
 					
-					<h3>
-						Cuidado veterinário especializado. Todo cuidado que seu pet precisa, num só lugar
-					</h3>
-
-					<p>
-						Clínica veterinária em Maceió especializada em atendimento para cães e gatos. Consultas, vacinas, exames e 
-						cirurgias com cuidado humanizado.
+					<p class="hero-sub">
+						Clínica veterinária em Maceió. Consultas, exames, vacinas e cirurgias com estrutura moderna e atendimento acolhedor para cães e gatos.
 					</p>
 
-					<a href="https://wa.me/5582993323004" target="_blank" class="btn btn-success btn-lg">
-						Chamar no WhatsApp
-					</a>
+					<p class="hero-urgency">
+						Atendimento rápido • Resposta imediata no WhatsApp
+					</p>
+
+					<div class="hero-actions">
+
+						<a href="https://wa.me/5582993323004?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento" target="_blank" class="btn btn-success btn-lg">
+							Agendar atendimento agora
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -102,42 +102,38 @@
 		<div class="container">
 			<div class="about-box">
 				<div class="row align-items-center g-4">
+
 					<!-- TEXTO -->
 					<div class="col-lg-6">
-						<h2>
-							Instituto Veterinário Servet
-						</h2>
+						<h2>Instituto Veterinário Servet. Referência em cuidado veterinário em Maceió</h2>
 
 						<p class="about-highlight">
-							Cuidado veterinário moderno com atendimento humano, ético e acolhedor.
+							Atendimento moderno, ético e verdadeiramente humanizado.
 						</p>
 
-						<p>
-							O Instituto Veterinário Servet é uma clínica veterinária em Maceió reconhecida pelo atendimento humanizado, ético e completo para cães e gatos.
-						</p>
+						<ul class="about-list">
+							<li>✔ Atendimento acolhedor para cães e gatos</li>
+							<li>✔ Estrutura moderna para consultas e cirurgias</li>
+							<li>✔ Profissionais experientes e atualizados</li>
+							<li>✔ Acompanhamento próximo do tutor</li>
+						</ul>
 
-						<p>
-							Cada consulta é conduzida com empatia, profissionalismo e carinho verdadeiro. Oferecemos clínica geral, especialidades, vacinação, exames e uma estrutura moderna para cirurgias veterinárias — incluindo castração e procedimentos de maior complexidade.
-						</p>
-
-						<p>
-							Somos referência em acolhimento ao tutor e cuidado integral ao pet. Também contamos com um Cat Hotel seguro e confortável, com acompanhamento diário.
+						<p class="about-highlight">
+							Atendimento focado no bem-estar do animal, com transparência e acompanhamento próximo dos tutores.
 						</p>
 
 						<div class="about-cta">
-							Se você busca um veterinário em Maceió que trate seu pet como parte da família:
-							<br>
-							<strong>agende seu atendimento e conheça um novo jeito de cuidar.</strong>
+							Seu pet merece um cuidado completo e seguro.<br>
+							<strong>Agende e conheça nosso atendimento.</strong>
 						</div>
 					</div>
 
 					<!-- IMAGEM -->
 					<div class="col-lg-6 text-center">
-						<img src="{{ url_for('static', filename='img/place/place.png') }}" class="about-img" alt="Clínica veterinária em Maceió atendimento de pets">>
+						<img src="{{ url_for('static', filename='img/place/place.png') }}" class="about-img">
 					</div>
 
 				</div>
-
 			</div>
 		</div>
 	</section>
@@ -149,8 +145,9 @@
 					<h2>
 						Melhores Serviços Veterinários
 					</h2>
-					<p>
-						Oferecemos atendimento completo para garantir saúde e bem-estar ao seu pet
+					
+					<p class="services-trust">
+						Cuidamos do seu pet como se fosse nosso.
 					</p>
 				</div>
 			</div>
@@ -158,39 +155,94 @@
 			<div class="row text-center">
 				<div class="col-md-4">
 					<div class="service-box">
-						<img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" width="60">
-						<h4>
-							Consultas
-						</h4>
-						<p>
-							Avaliação clínica completa para cães e gatos.
+						<div class="service-icon">🐾</div>
+						<h4>Consultas clínicas</h4>
+						<p>Consultas veterinárias humanizadas com escuta ativa, diagnóstico preciso e cuidado individualizado. 
+							Para cada tutor, uma conversa. Para cada pet, um plano de cuidado ético e eficiente.
 						</p>
 					</div>
 				</div>
 
 				<div class="col-md-4">
 					<div class="service-box">
-						<img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" width="60">
-						<h4>
-							Vacinação
-						</h4>
-						<p>
-							Protocolos atualizados de imunização.
+						<div class="service-icon">🐾</div>
+						<h4>Vacinação segura e atualizada</h4>
+						<p>Realizamos vacinação de cães e gatos. Vacinas essenciais aplicadas com segurança, conforto e orientação 
+							profissional. Proteja seu pet com um calendário vacinal atualizado.
 						</p>
 					</div>
 				</div>
 
 				<div class="col-md-4">
 					<div class="service-box">
-						<img src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png" width="60">
-						<h4>
-							Cirurgias
-						</h4>
-						<p>
-							Procedimentos realizados com segurança.
+						<div class="service-icon">🐾</div>
+						<h4>Exames veterinários</h4>
+						<p>Contamos com exames de imagem como raio-X e ultrassonografia para diagnósticos precisos. Equipamentos modernos 
+							e profissionais capacitados garantem rapidez e confiabilidade nos resultados. Tudo em um só lugar.
 						</p>
 					</div>
 				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Cirurgias com estrutura moderna</h4>
+						<p>Realizamos castração, cirurgias abdominais, ortopédicas, odontológicas e mais. Estrutura segura, equipe 
+							experiente e acompanhamento atencioso no pré e pós-operatório.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Castração de cães e gatos</h4>
+						<p>Procedimento com foco em bem-estar, prevenção de doenças e comportamento saudável. Atendimento acolhedor e 
+							acompanhamento pós-cirúrgico.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Cat Hotel</h4>
+						<p>Hospedagem exclusiva para gatos em ambiente seguro, monitorado e com supervisão veterinária. 
+							Espaço confortável e pensado para reduzir o estresse felino. Enviamos fotos e feedbacks diários 
+							para você acompanhar de perto.
+						</p>
+					</div>
+				</div>				
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Dermatologia veterinária</h4>
+						<p>Diagnóstico e tratamento de doenças de pele, coceiras, alergias e problemas dermatológicos em cães e gatos. 
+							Atendimento com olhar técnico e cuidadoso, respeitando a individualidade de cada animal.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Outras especialidades</h4>
+						<p>Possuímos  aatendimento com veterinários parceiros com atendimento em cardiologia, ortopedia, 
+							neurologia, oftalmologia, oncologia, Endocrinologia, Gastroenterologia, Nefrologia, Urologia e Nutrição veterinária
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="service-box">
+						<div class="service-icon">🐾</div>
+						<h4>Medicina de Animais Silvestres e Exóticos</h4>
+						<p>Atendimento especializado para animais como aves, répteis e pequenos mamíferos. Estrutura e conhecimento técnico para garantir 
+							o cuidado ideal a espécies não convencionais.
+						</p>
+					</div>
+				</div>				
 			</div>
 		</div>
 	</section>
@@ -291,7 +343,6 @@
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</section>
@@ -302,15 +353,18 @@
 			<div class="text-center mb-4">
 				<h2>O que nossos clientes dizem</h2>
 
+				<p class="reviews-trust">
+					Atendimento avaliado com excelência por tutores reais
+				</p>
+				
 				<div class="review-summary mt-3">
 					<span class="review-score">{{ media }}</span>
 					<span class="stars-big">★★★★★</span>
-					<p>{{ total }} avaliações positivas</p>
+					<p>Mais de <strong>{{ total }} </strong>avaliações positivas no Google</p>
 				</div>
 			</div>
-
+			
 			<div class="reviews-wrapper">
-
 				<!-- botão esquerda -->
 				<button class="scroll-btn left">&#10094;</button>
 
@@ -342,9 +396,7 @@
 
 					</div>
 					{% endfor %}
-
 				</div>
-
 				<!-- botão direita -->
 				<button class="scroll-btn right">&#10095;</button>
 
@@ -359,44 +411,6 @@
 				</a>
 			</div>
 
-		</div>
-	</section>
-
-	<section id="galeria" class="gallery">
-		<div class="container">
-			<div class="row text-center mb-5">
-				<div class="col-lg-12">
-					<h2>
-						Galeria
-					</h2>
-				</div>
-			</div>
-
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b" class="img-fluid">
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" class="img-fluid">
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783" class="img-fluid">
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1581888227599-779811939961" class="img-fluid">
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a" class="img-fluid">
-                </div>
-
-                <div class="col-md-4 mb-4">
-                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb" class="img-fluid">
-                </div>
-            </div>
 		</div>
 	</section>
 
@@ -452,7 +466,7 @@
 		</div>
 	</footer>
 
-	<a href="https://wa.me/5582993323004" class="whatsapp-float" target="_blank">
+	<a href="https://wa.me/5582993323004?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento" class="whatsapp-float" target="_blank">
 		<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="whatsapp-icon">
 	</a>
 
