@@ -69,8 +69,8 @@
 
 	<section class="hero">
 		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-12 hero-text">
+			<div class="row align-items-stretch">
+				<div class="col-lg-6 hero-text">
 					<span class="hero-badge">
 						Atendimento humanizado em Maceió
 					</span>
@@ -94,6 +94,18 @@
 						</a>
 					</div>
 				</div>
+
+				<!-- COLUNA SLIDE -->
+				<div class="col-lg-6 d-flex justify-content-center hero-slider-column">
+					<div class="hero-slider-container">
+						<div class="hero-slider">
+							<img src="{{ url_for('static', filename='img/hero/hero01.jpg') }}" class="slide-img active">
+							<img src="{{ url_for('static', filename='img/hero/hero02.jpg') }}" class="slide-img">
+							<img src="{{ url_for('static', filename='img/hero/hero03.jpg') }}" class="slide-img">
+							<img src="{{ url_for('static', filename='img/hero/hero04.jpg') }}" class="slide-img">
+						</div>
+					</div>
+				</div>				
 			</div>
 		</div>
 	</section>
@@ -554,4 +566,19 @@
 		container.addEventListener('scroll', updateActiveCard);
 		window.addEventListener('load', updateActiveCard);
 	</script>
+
+	<!-- SLIDER-->
+	<script>
+		let currentSlide = 0;
+		const slides = document.querySelectorAll('.slide-img');
+		const totalSlides = slides.length;
+
+		setInterval(() => {
+			slides[currentSlide].classList.remove('active');
+			currentSlide = (currentSlide + 1) % totalSlides;
+			slides[currentSlide].classList.add('active');
+		}, 4000);
+	</script>
+
+	<script src="{{ url_for('static', filename='js/hero-slider.js') }}"></script>
 </body>
